@@ -47,7 +47,6 @@ public class WhenDoAppium {
         appiumDriver.findElement(By.id("com.vrproductiveapps.whendo:id/noteTextNotes")).sendKeys("test notas");
 
         appiumDriver.findElement(By.id("com.vrproductiveapps.whendo:id/saveItem")).click();
-        Thread.sleep(2000);
 
         String expectedResult="test";
 
